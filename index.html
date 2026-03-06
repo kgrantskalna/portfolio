@@ -1,75 +1,94 @@
-<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+
 -->
 <html>
     <head>
         <title>mans datorikas portfolio</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style> body{background-color:pink; font-family: "Times New Roman", sans-serif}
-       
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+       <style> body{background-color:pink; font-family: "Times New Roman", sans-serif}
+      
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
 </style>
+
           
        
     </head>
     <body>
-        <!-- Navbar -->
+       <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-      <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">rastrgrafika</a>
-    <a href="#vek" class="w3-bar-item w3-button w3-padding-large w3-hide-small">vektorgrafika</a>
-    <a href="#vek" class="w3-bar-item w3-button w3-padding-large w3-hide-small">tinkercad</a>
-    <a href="#vid" class="w3-bar-item w3-button w3-padding-large w3-hide-small">video</a>
-    <a href="#word" class="w3-bar-item w3-button w3-padding-large w3-hide-small">word</a>
-    <a href="#exc" class="w3-bar-item w3-button w3-padding-large w3-hide-small">excel</a>
-    </div>
-    
+ <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Portfolio</a>
  
-      
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#rast" class="w3-bar-item w3-button">Rastrgrafika</a>
+      <a href="#vekt" class="w3-bar-item w3-button">Vektorgrafika</a>
+      <a href="#tink" class="w3-bar-item w3-button">TinkerCad</a>
+      <a href="#vid" class="w3-bar-item w3-button">Video</a>
+      <a href="#word" class="w3-bar-item w3-button">Word</a>
+      <a href="#exc" class="w3-bar-item w3-button">Excel</a>
 
+    </div>
+  </div>
 </div>
-
-        <div><h1> Mans datorikas portfolio </h1> </div>
-        <p> Datorikas stundās šajā mācību gadā apguvām:</p>
-        <ul> 
-            <li> rastrgrafiku programmā ''GIMP'' </li>
-            <li> vektorgrafiku </li>
-             <li> TinkerCad </li>
-            <li> video montāžu</li>
-            <li> tekstapstrādi programmā ''Word'' </li>
-            <li> izklājlapas programmā ''Excel'' </li>
-        </ul>        
+       <br>
+       <br><!-- comment -->
+       <br>
+         
+        <div><h1>           Mans datorikas portfolio </h1> </div>
+       
          <!-- gimps -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">rastrgrafika</h2>
-      <p class="w3-opacity w3-center"><i>gif par autortiesību aizsardzību</i></p><br>
-<p> <img src="images/radosais.gif" width="100"></p>
-               <!-- logo -->
+  <div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="rast">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="images/radosais.gif" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Rastrgrafika</h1><br>
+      <h5 class="w3-center">GIF par autortiesību aizsardzību</h5>
+      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>               <!-- logo -->
                  <h2 class="w3-wide w3-center">vektorgrafika</h2>
       <p class="w3-opacity w3-center"><i>uzņēmuma logo</i></p><br>
  <p> <img src="images/SPARĢELIS.LOGO.svg" width="100"></p>
+ <div class="w3-row w3-padding-64" id="vekt">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
                  <!-- kubs -->
                  <h2 class="w3-wide w3-center">tinkercad</h2>
+                 <div class="w3-row w3-padding-64" id="tink">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+        </div.
       <p class="w3-opacity w3-center"><i>izveidotā kuba plāksne</i></p><br>
   <p> <img src="images/tinker.png" style=''width=200''>  </p>
                
                 
                 <h2> Video montāža </h2>
                 <p> <video style="width:160px" controls="controls" src="images/video.mp4"></video> </p>
-                
+                <div class="w3-row w3-padding-64" id="vid">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    </div>
                 
                 <h2> Tekstapstrāde </h2>
+                  <div class="w3-row w3-padding-64" id="word">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    </div>
                 <p> <a href="autortiesibas.docx">autortiesību aizsardzība</a> </p>
                 
                 <h2> Izklājlapas </h2> 
                 <p> <a href="excel3.xlsx">excel darbagrāmata </a></p>
+                  <div class="w3-row w3-padding-64" id="exc">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    </div>
         <script>
 
 
